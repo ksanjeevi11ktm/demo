@@ -1,0 +1,110 @@
+section{
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+
+.white
+{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}
+.black
+{
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#white_rook:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-200px)
+}
+
+#black_icon:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(200px)
+}
+
+#white_rook:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-250px)
+}
+#black_rook:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(250px)
+}
+
+#white_knight:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-200px) translateX(100px)
+}
+#black_knight:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(200px) translateX(100px)
+}
+
+#white_bishop:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-250px) translateX(300px)
+}
+#black_bishop:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(200px) translateX(-300px)
+}
+
+#white_king:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-100px)
+}
+#black_king:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(100px)
+}
+
+#white_queen:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(-500px)
+}
+#black_queen:hover
+{
+    color: blue;
+    transition: 1s;
+    transform: translateY(500px)
+}

@@ -1,0 +1,44 @@
+nav
+{
+    border: 1px solid blue;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap-reverse; */
+   
+}
+
+.max
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;   
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#max1
+{
+    background-color: blue;
+    flex-grow: 3;
+
+}
+
+#max2
+{
+    background-color: red;
+    flex-shrink: 3;
+}
+#max3
+{
+    background-color: gray;
+}
+#max4
+{
+    background-color: yellow;
+}
+#max5
+{
+    background-color: green
+}
